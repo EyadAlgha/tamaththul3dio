@@ -1,16 +1,28 @@
-# Nerfies
+# Tamaththul3D Project Page
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+Source code for the [Tamaththul3D](https://github.com/EyadAlgha/Tamaththul3D) project page:
+**Tamaththul3D: High-Fidelity 3D Saudi Sign Language Avatars from Monocular Video.**
 
-If you find Nerfies useful for your work please cite:
+## Local preview
+
+From this directory, start a static server and open the printed URL:
+
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+python3 -m http.server 8000
+```
+
+Then visit <http://localhost:8000> in your browser.
+
+## Citation
+
+```
+@inproceedings{alghamdi2026tamaththul3d,
+  author    = {Alghamdi, Eyad and Altuuaim, Sattam and Ghulam, Obay and Qutah, Abdulrahman and Basoodan, Yousef},
+  title     = {Tamaththul3D: High-Fidelity 3D Saudi Sign Language Avatars from Monocular Video},
+  booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+  year      = {2026},
 }
 ```
 
 # Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. The template is borrowed from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page.
