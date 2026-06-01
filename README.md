@@ -1,17 +1,7 @@
 # Tamaththul3D Project Page
 
-Source code for the [Tamaththul3D](https://github.com/EyadAlgha/Tamaththul3D) project page:
+Source code for the Tamaththul3D project page:
 **Tamaththul3D: High-Fidelity 3D Saudi Sign Language Avatars from Monocular Video.**
-
-## Local preview
-
-From this directory, start a static server and open the printed URL:
-
-```
-python3 -m http.server 8000
-```
-
-Then visit <http://localhost:8000> in your browser.
 
 ## Citation
 
