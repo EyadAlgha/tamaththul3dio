@@ -224,28 +224,24 @@
       <div class="column is-full-width">
         <h2 class="title is-3 has-text-centered">Video Demos</h2>
 
-        <!-- Temporal coherence -->
-        <h3 class="title is-4">Temporal Coherence</h3>
-        <div class="content has-text-justified">
-          <p>
-            Per-frame reconstruction methods produce visible jitter. Our temporal smoothing
-            yields substantially more stable avatars &mdash; reducing hand jitter by 83.2%
-            and body jitter by 83.9% relative to DexAvatar &mdash; while preserving genuine
-            sign articulation.
-          </p>
-        </div>
+        <!-- High fidelity -->
+        <h3 class="title is-4">High-Fidelity Reconstruction</h3>
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <p class="is-size-5"><b>Tamaththul3D (Ours)</b></p>
             <video class="sync-video" autoplay muted loop playsinline width="100%">
-              <source src="./static/videos/temporal_ours.mp4" type="video/mp4">
+              <source src="./static/videos/fidelity_ours.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
           <div class="column has-text-centered">
-            <p class="is-size-5">DexAvatar</p>
             <video class="sync-video" autoplay muted loop playsinline width="100%">
-              <source src="./static/videos/temporal_dexavatar.mp4" type="video/mp4">
+              <source src="./static/videos/fidelity_dexavatar.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="column has-text-centered">
+            <video class="sync-video" autoplay muted loop playsinline width="100%">
+              <source src="./static/videos/fidelity_sgnify.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
@@ -253,34 +249,18 @@
 
         <br/>
 
-        <!-- High fidelity -->
-        <h3 class="title is-4">High-Fidelity Reconstruction</h3>
-        <div class="content has-text-justified">
-          <p>
-            Tamaththul3D achieves state-of-the-art hand accuracy, recovering the precise
-            finger configurations and palm orientations that make signs legible. Below we
-            contrast our reconstructions against prior methods on the same input sequence.
-          </p>
-        </div>
+        <!-- Temporal coherence -->
+        <h3 class="title is-4">Temporal Coherence</h3>
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <p class="is-size-5"><b>Tamaththul3D (Ours)</b></p>
             <video class="sync-video" autoplay muted loop playsinline width="100%">
-              <source src="./static/videos/fidelity_ours.mp4" type="video/mp4">
+              <source src="./static/videos/temporal_ours.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
           <div class="column has-text-centered">
-            <p class="is-size-5">DexAvatar</p>
             <video class="sync-video" autoplay muted loop playsinline width="100%">
-              <source src="./static/videos/fidelity_dexavatar.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="column has-text-centered">
-            <p class="is-size-5">SGNify</p>
-            <video class="sync-video" autoplay muted loop playsinline width="100%">
-              <source src="./static/videos/fidelity_sgnify.mp4" type="video/mp4">
+              <source src="./static/videos/temporal_dexavatar.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
